@@ -7,18 +7,20 @@
     <link rel="icon" href="./assests/images/logo.png">
     <title>Urban Fashion</title>
     <link rel="stylesheet" href="./assests/style.css">
-    <!-- font -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 </head>
+
 <body>
-<!-- TOP NAV -->
+    <!-- TOP NAV -->
     <nav>
         <p id="p">FREE SHIPPING ON ORDERS ABOVE RS.2500 WITHIN PAKISTAN</p>
     </nav>
     <!-- SECOND NAV -->
     <div class="second-div">
         <ul class="list">
-            <li><a href="https://web.whatsapp.com/?post_logout=1"><img src="./assests/images/whatsapp icon.png" alt="whatsapp" width="30px"></a></li>
-            <li class="phone"><img src="./assests/images/phone.png" alt="phone"width="30px"></li>
+            <li><a href="https://web.whatsapp.com/?post_logout=1"><img src="./assests/images/whatsapp icon.png"
+                        alt="whatsapp" width="30px"></a></li>
+            <li class="phone"><img src="./assests/images/phone.png" alt="phone" width="30px"></li>
             <input type="text" placeholder="Search.." name="query">
             <button type="submit">
                 <img src="./assests/images/search icon.png" alt="Search" width="10px">
@@ -30,8 +32,44 @@
     <!-- THIRD NAV -->
     <div class="third-nav">
         <div><a href="./profile.html"><img src="./assests/images/profile.png" alt="" height="40px"></a></div>
-        <div></div>
-        <div></div>
+        <ul>
+            <li>WOMEN</li>
+            <li>GIRLS</li>
+            <li>MEN</li>
+            <li>ACCESSORIES</li>
+            <li>SALE</li>
+        </ul>
+    </div>
+
+    <!-- slidebar with SWEEPER -->
+    <!-- Slider main container -->
+    <div class="main-container">
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="./assests/images/profile 1.webp" alt=""></div>
+                <div class="swiper-slide"><img src="./assests/images/profile3.webp" alt=""></div>
+                <div class="swiper-slide"><img src="./assests/images/profile 4.webp" alt=""></div>
+                <div class="swiper-slide"><img src="./assests/images/profile 2.webp" alt=""></div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="./assests/add.js"></script>
+    <br>
+    <hr>
+    <p style="font-size: 5vh; text-align:center">SHOP BY CATEGORY</p>
+    <!-- shop by category  -->
+    <div class="local-div1">
+    <div><img src="./assests/images/group of 3.webp" alt="" height="100%" width="90%"><a href=""><div class="text">UNSTITCHED</div></a></div>
+    <div ><a href=""><img src="./assests/images/pret.webp" alt="" height="100%" width="90%">PRET</a></div>
     </div>
 </body>
 

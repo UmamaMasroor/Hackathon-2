@@ -1,69 +1,93 @@
-*{
-    margin:0;
-    padding:0 ;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
-#p{
+/* body{
+    background-color: rgb(250, 223, 227);
+} */
+#p {
     color: red;
     font-size: 15px;
     text-align: center;
 }
-.list{
+.list {
     display: flex;
 }
-.second-div{
-    background-color:black ;
+.second-div {
+    background-color: black;
     width: 100%;
     height: 50px;
 }
-.second-div h1{
+.second-div h1 {
     color: aliceblue;
     text-align: center;
 }
-.phone img{
-border-radius: 50%;
+.phone img {
+    border-radius: 50%;
 }
-.cart img{
+.cart img {
     border-radius: 50%;
 }
 /* 3 nav */
-.third-nav{
-    background-color:rgb(222, 220, 220);
+.third-nav {
+    background-color: rgb(222, 220, 220);
     height: 40px;
 }
-.third-nav img{
+.third-nav img {
     border-radius: 50%;
- }
-/*.login-form{
-    margin-top:-90px!important;
+}
+.third-nav ul {
+    display: flex;
+}
+
+/*LOGIN PAGE CSS form */
+.container {
     position: absolute;
-    top: 50%; left: 50%; transform: translate(-50%,
-    -50%); z-index: 1
-
+    margin: 20px;
+    height: 50%;
+    padding: 16px;
 }
-form {
+input[type=text],
+input[type=password] {
+    width: 100%;
     padding: 20px;
-    border-radius: 4px;
-}
-
-label {
-    display: block;
-    font-weight: bold;
-}
-
-input[type="email"],
-input[type="password"] {
-    width: 40%;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-button {
-    padding: 8px 16px;
-    background-color: #007bff;
-    color: #fff;
+    margin: 5px 0 22px 0;
     border: none;
-    border-radius: 4px;
+    background: #f1eeee;
+}
+.btn {
+    margin-left: 25%;
+    color: white;
+    padding: 16px 0px;
+    border: none;
     cursor: pointer;
-} */
+    width: 50%;
+    color: black;
+    border-radius: 10%;
+}
+.btn:hover {
+    background-color: grey;
+    color: white;
+}
+/* LOGIN PAGE CSS END */
+
+/* slider with sweeper */
+.swiper{
+    width: 100%;
+    height: fit-content;
+}
+.swiper-slide img{
+   height: 600px;
+   width: 100%;
+}
+/* shop by category */
+.local-div1 {
+display: flex;
+
+margin-left: 5%;
+}
+.local-div1 .text{
+ left: 50%;
+ margin-bottom: 20%;
+}

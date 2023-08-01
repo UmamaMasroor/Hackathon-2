@@ -1,25 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./assests/style.css">
 </head>
+
 <body>
-      <div class="login-form">
+
+    <form action="form" class="container">
+
         <h1>Login</h1>
-        <div class="form-group">
-            <label for="email"></label>
-            <input type="email" id="email" name="email" placeholder="Enter your email" required>
-        </div>
-        <div class="form-group">
-            <label for="password"></label>
-            <input type="password" id="password" name="password" placeholder="Enter your password" required>
-        </div>
-        <button type="submit">SIGN IN</button>
-        <a href="#">CREATE ACCOUNT</a>
-    </div>
-    <a href="#">FORGET YOUR PASSWORD ?</a>
+        <label for="email"></label>
+        <input type="text" placeholder="Enter Email" name="email" required>
+
+        <label for="psw"></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+
+        <button type="submit" class="btn">SIGN IN</button>
+    </form>
 </body>
+
 </html>
