@@ -5,6 +5,32 @@
 }
 #p{
     color: red;
-    font-size: 10px;
+    font-size: 15px;
     text-align: center;
+}
+.list{
+    display: flex;
+}
+.second-div{
+    background-color:black ;
+    width: 100%;
+    height: 50px;
+}
+.second-div h1{
+    color: aliceblue;
+    text-align: center;
+}
+.phone img{
+border-radius: 50%;
+}
+.cart img{
+    border-radius: 50%;
+}
+/* 3 nav */
+.third-nav{
+    background-color:rgb(222, 220, 220);
+    height: 40px;
+}
+.third-nav img{
+    border-radius: 50%;
 }
