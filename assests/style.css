@@ -33,4 +33,37 @@ border-radius: 50%;
 }
 .third-nav img{
     border-radius: 50%;
+ }
+/*.login-form{
+    margin-top:-90px!important;
+    position: absolute;
+    top: 50%; left: 50%; transform: translate(-50%,
+    -50%); z-index: 1
+
 }
+form {
+    padding: 20px;
+    border-radius: 4px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 40%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+} */
