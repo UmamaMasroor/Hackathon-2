@@ -5,13 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CONTACT</title>
     <link rel="stylesheet" href="./assests/style.css">
+    <style>
+        body{
+            background-color:#f2f2f2 ;
+            font-family: 'Montserrat', sans-serif;
+        }
+    </style>
 </head>
 <body>
 <div class="container">
-    <h1>CONTACT US</h1>
+    <h1 style="text-align: center;">CONTACT US</h1>
     <hr>
+    <br>
   <form action="action_page.php">
-<div>
+<div class="contact">
     <label for="fname"></label>
     <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
@@ -30,9 +37,7 @@
 
     <label for="subject"></label>
     <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
     <input type="submit" value="Send">
-
   </form>
 </div>
 </body>
