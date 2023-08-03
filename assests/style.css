@@ -3,27 +3,34 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     background-color: #f1eeee;
 }
-#p {         /*first nav*/
+
+#p {
+    /*first nav*/
     color: red;
     font-size: 15px;
     text-align: center;
 }
 
-.list {        /*second nav*/
+.list {
+    /*second nav*/
     display: flex;
     padding-left: 30px;
 }
-.list .phone{
+
+.list .phone {
     padding-left: 35px;
     padding-top: 15px;
 }
-.list .whatsapp{
-    padding-top:15px ;
+
+.list .whatsapp {
+    padding-top: 15px;
     padding-left: 5px;
 }
+
 .second-div {
     background-color: black;
     width: 100%;
@@ -31,15 +38,18 @@ body{
     display: flex;
     line-height: 20px;
 }
-.list .search{
-padding-left: 40px;
-display: flex;
+
+.list .search {
+    padding-left: 40px;
+    display: flex;
 }
-.list .search button{
+
+.list .search button {
     height: 30px;
-  margin-top: 10px;
-  margin-left: 5px;
+    margin-top: 10px;
+    margin-left: 5px;
 }
+
 .second-div h1 {
     display: flex;
     color: aliceblue;
@@ -55,28 +65,34 @@ display: flex;
 .cart img {
     border-radius: 50%;
 }
-.cart{
+
+.cart {
     padding-left: 540px;
     padding-top: 5px;
 }
-@media (max-width:1542px){
-    .cart{
+
+@media (max-width:1542px) {
+    .cart {
         padding-right: 100px;
     }
 }
-@media (max-width:1518px){
-    .list .search{
-        padding-left:10px;
+
+@media (max-width:1518px) {
+    .list .search {
+        padding-left: 10px;
     }
 }
-@media (max-width:1488px){
-   .list.whatsapp{
-    padding-right: 5px;
-   }
-   .list.phone{
-    padding-right: 7px;
-   }
+
+@media (max-width:1488px) {
+    .list.whatsapp {
+        padding-right: 5px;
+    }
+
+    .list.phone {
+        padding-right: 7px;
+    }
 }
+
 /* 3 nav */
 .third-nav {
     background-color: rgb(222, 220, 220);
@@ -85,23 +101,28 @@ display: flex;
     line-height: 30px;
     padding-left: 60px;
 }
+
 .third-nav img {
     border-radius: 50%;
 }
+
 .third-nav ul {
     display: flex;
     list-style: none;
 }
-.third-list ul{
+
+.third-list ul {
     display: flex;
     text-indent: 190px;
     padding-top: 5px;
 }
-.li a{
- text-decoration: none;
- color: rgb(61, 44, 44);
-font-family: Georgia, 'Times New Roman', Times, serif;
+
+.li a {
+    text-decoration: none;
+    color: rgb(61, 44, 44);
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 /*LOGIN PAGE CSS form */
 .container {
     position: absolute;
@@ -157,20 +178,24 @@ input[type=password] {
     margin-top: 4px;
     height: 400px;
 }
-.local-div2{
+
+.local-div2 {
     display: flex;
     margin-top: 55px;
     justify-content: space-between;
     margin-left: 4%;
     margin-right: 4%;
 }
-.bottom-left{
-overflow: hidden;
+
+.bottom-left {
+    overflow: hidden;
 }
-.bottom-left img{
+
+.bottom-left img {
     transition: scale 400ms;
 }
-.bottom-left:hover img{
+
+.bottom-left:hover img {
     scale: 120%;
 }
 
@@ -287,97 +312,147 @@ input[type=submit]:hover {
 
 * {
     box-sizing: border-box;
-  }
-  
-  body {
+}
+
+body {
     font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  /* Float four columns side by side */
-  .column {
+}
+
+/* Float four columns side by side */
+.column {
     float: left;
     width: 25%;
     padding: 0 10px;
-  }
-  
-  /* Remove extra left and right margins, due to padding in columns */
-  .row {margin: 0 -5px;}
-  
-  /* Clear floats after the columns */
-  .row:after {
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {
+    margin: 0 -5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
     content: "";
     display: table;
     clear: both;
-  }
-  
-  /* Style the counter cards */
-  .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+}
+
+/* Style the counter cards */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    /* this adds the "card" effect */
     padding: 16px;
     text-align: center;
     background-color: #f1f1f1;
-  }
-  
-  /* Responsive columns - one column layout (vertical) on small screens */
-  @media screen and (max-width: 600px) {
+}
+
+/* MEDIA QUERY */
+@media screen and (max-width: 600px) {
     .column {
-      width: 100%;
-      display: block;
-      margin-bottom: 20px;
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
     }
-  }
-  @media ( max-width:1512px){
-    .about{
+}
+
+@media (max-width:1512px) {
+    .about {
         width: 70%;
         font-size: large;
     }
-   .footer{
-    padding-left: 40%;
-   }
-   .about-pic{
-    margin-right: 20px;
-   }
-   .detail{
-    padding-left: 20%;
-   }
+
+    .footer {
+        padding-left: 40%;
+    }
+
+    .about-pic {
+        margin-right: 20px;
+    }
+
+    .detail {
+        padding-left: 20%;
+    }
 }
-@media (max-width:1540px){
-    
+
+@media (max-width:1540px) {
+    .bottom-left img {
+        width: 650px;
+        padding-top: 10px;
+    }
+
+    p {
+        font-size: 10px;
+    }
 }
-@media ( max-width:1512px){
-    .about{
+
+@media (max-width:1512px) {
+    .about {
         width: 60%;
         font-size: small;
-    }}
-    @media (max-width: 1156px){
-        .about-main{
-            display: block;
-        }
-        .about{
-            width: 90%;
-        }
-        .about-pic img{
-           height:800px ;
-            width: 900px;
-            padding-left: 30px;
-        }
     }
-    @media (max-width: 1128px){
-        .footer{
-           padding-left: 35%;
-        }}
-        @media (max-width: 1030px){
-            .about-pic img{
-               padding-right: 9%;
-            }}
-            @media (max-width: 988px){
-                .detail{
-                  background-color:rgb(231, 231, 231) ;
-                  padding-left: 12%;
-                  width: 100%;
-                }}
-                @media (max-width: 970px){
-                    .about-main{
-                    width: fit-content;
-                     
-                    }}
+}
+
+@media (max-width: 1156px) {
+    .about-main {
+        display: block;
+    }
+
+    .about {
+        width: 90%;
+    }
+
+    .about-pic img {
+        height: 800px;
+        width: 900px;
+        padding-left: 30px;
+    }
+}
+
+@media (max-width: 1128px) {
+    .footer {
+        padding-left: 35%;
+    }
+}
+
+@media (max-width: 1030px) {
+    .about-pic img {
+        padding-right: 9%;
+    }
+}
+
+@media (max-width: 988px) {
+    .detail {
+        background-color: rgb(231, 231, 231);
+        padding-left: 12%;
+        width: 100%;
+    }
+}
+
+@media (max-width: 970px) {
+    .about-main {
+        width: fit-content;
+
+    }
+}
+@media (max-width:1478px){
+    .search{
+        width: 200px;
+    }
+}
+@media (max-width:1454px){
+  .cart{
+    padding-left: 300px;
+  }
+}
+@media (max-width:1432px){
+    .bottom-left img {
+        width: 600px;
+        padding-top: 10px;
+    }
+  }
+  @media (max-width:1320px){
+    .bottom-left img {
+        width: 600px;
+        padding-top: 10px;
+    }
+  }
