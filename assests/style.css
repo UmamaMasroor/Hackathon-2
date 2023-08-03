@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: #f1eeee;
+}
 #p {         /*first nav*/
     color: red;
     font-size: 15px;
@@ -141,20 +144,25 @@ input[type=password] {
 }
 
 .swiper-slide img {
-    height: 600px;
+    height: 500px;
     width: 100%;
 }
 
 /* shop by category */
 .local-div1 {
     display: flex;
-    margin-left: 5%;
-    margin-top: 7px;
+    margin-left: 4%;
+    margin-right: 4%;
+    justify-content: space-between;
+    margin-top: 4px;
+    height: 400px;
 }
-.local-div1 a{
-text-decoration: none;
-color: black;
-padding-top: 10px;
+.local-div2{
+    display: flex;
+    margin-top: 55px;
+    justify-content: space-between;
+    margin-left: 4%;
+    margin-right: 4%;
 }
 .bottom-left{
 overflow: hidden;
@@ -216,58 +224,7 @@ body h1 p {
     border-radius: 50%;
 
 }
-@media ( max-width:1512px){
-    .about{
-        width: 70%;
-        font-size: large;
-    }
-   .footer{
-    padding-left: 40%;
-   }
-   .about-pic{
-    margin-right: 20px;
-   }
-   .detail{
-    padding-left: 20%;
-   }
-}
-@media ( max-width:1512px){
-    .about{
-        width: 60%;
-        font-size: small;
-    }}
-    @media (max-width: 1156px){
-        .about-main{
-            display: block;
-        }
-        .about{
-            width: 90%;
-        }
-        .about-pic img{
-           height:800px ;
-            width: 900px;
-            padding-left: 30px;
-        }
-    }
-    @media (max-width: 1128px){
-        .footer{
-           padding-left: 35%;
-        }}
-        @media (max-width: 1030px){
-            .about-pic img{
-               padding-right: 9%;
-            }}
-            @media (max-width: 988px){
-                .detail{
-                  background-color:rgb(231, 231, 231) ;
-                  padding-left: 12%;
-                  width: 100%;
-                }}
-                @media (max-width: 970px){
-                    .about-main{
-                    width: fit-content;
-                     
-                    }}
+
 /* about us end */
 /* CONTACT */
 /* Style inputs with type="text", select elements and textareas */
@@ -326,3 +283,101 @@ input[type=submit]:hover {
 }
 
 /* CONTACT us end */
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+  
+  /* Responsive columns - one column layout (vertical) on small screens */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  @media ( max-width:1512px){
+    .about{
+        width: 70%;
+        font-size: large;
+    }
+   .footer{
+    padding-left: 40%;
+   }
+   .about-pic{
+    margin-right: 20px;
+   }
+   .detail{
+    padding-left: 20%;
+   }
+}
+@media (max-width:1540px){
+    
+}
+@media ( max-width:1512px){
+    .about{
+        width: 60%;
+        font-size: small;
+    }}
+    @media (max-width: 1156px){
+        .about-main{
+            display: block;
+        }
+        .about{
+            width: 90%;
+        }
+        .about-pic img{
+           height:800px ;
+            width: 900px;
+            padding-left: 30px;
+        }
+    }
+    @media (max-width: 1128px){
+        .footer{
+           padding-left: 35%;
+        }}
+        @media (max-width: 1030px){
+            .about-pic img{
+               padding-right: 9%;
+            }}
+            @media (max-width: 988px){
+                .detail{
+                  background-color:rgb(231, 231, 231) ;
+                  padding-left: 12%;
+                  width: 100%;
+                }}
+                @media (max-width: 970px){
+                    .about-main{
+                    width: fit-content;
+                     
+                    }}
